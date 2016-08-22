@@ -15,7 +15,8 @@ test:
   database: hope-test
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   database: hope
   user: hope
   password:
+  pool: 15
