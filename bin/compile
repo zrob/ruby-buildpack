@@ -4,8 +4,8 @@
 $stdout.sync = true
 
 
-for i in $(seq 1 300); do
-  echo $i
+300.times do |i|
+  puts i
   sleep 1
 done
 
