@@ -5,10 +5,10 @@ $stdout.sync = true
 
 #exit 1
 
-#300.times do |i|
-#  puts i
-#  sleep 1
-#end
+300.times do |i|
+ puts i
+ sleep 1
+end
 
 cache_dir = ARGV[1]
 compile_extensions_dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'compile-extensions'))
